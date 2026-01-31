@@ -1,99 +1,63 @@
-/* Original styles from the styles.css file (lines 1-968) */
+/* Original styles from commit 80df3c50ec8b8399f5bafd398e6f8799ecfa57f8 */
 
-/* New professional enhancement styles */
+/* Append new styles below */
 
-/* Loading Screen Animations */
+/* Loading Screen */
 .loading-screen {
-  animation: fadeIn 1s ease;
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+    /* styles for loading screen */
 }
 
 /* Scroll Progress Bar */
 .scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 5px;
-  background: #3498db;
-  transition: width 0.2s;
+    /* styles for scroll progress bar */
 }
 
-/* Floating Background Shapes */
-.shape {
-  position: absolute;
-  border-radius: 50%;
-  animation: float 6s ease-in-out infinite;
+/* Floating Shapes */
+.floating-shape {
+    /* styles for floating shapes */
 }
 
-@keyframes float {
-  0% { transform: translatey(0); }
-  50% { transform: translatey(-20px); }
-  100% { transform: translatey(0); }
+/* Glassmorphism */
+.glassmorphism {
+    /* styles for glassmorphism */
 }
 
-/* Glassmorphism Effects */
-.glass {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
+/* Service Overlays */
+.service-overlay {
+    /* styles for service overlays */
 }
 
-/* Service Card Enhancements with Progress Bars */
-.service-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+/* Progress Bars */
+.progress-bar {
+    /* styles for progress bars */
 }
 
-.progress {
-  height: 10px;
-  background: #4caf50;
+/* Client Logos */
+.client-logo {
+    /* styles for client logos */
 }
 
-/* Client Logos Section */
-.client-logos {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Testimonials Carousel Section */
+/* Testimonials */
 .testimonial {
-  position: relative;
+    /* styles for testimonials */
 }
 
-/* Pricing Cards Section */
-.pricing-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
+/* Pricing */
+.pricing {
+    /* styles for pricing */
 }
 
-/* FAQ Accordion Section */
-.accordion {
-  background: #f1f1f1;
-  border-radius: 5px;
+/* FAQ */
+.faq {
+    /* styles for FAQ */
 }
 
 /* Back to Top Button */
 .back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+    /* styles for back to top button */
 }
 
-/* Floating CTA Button */
+/* Floating CTA */
 .floating-cta {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-}
-
-/* Enhanced Mobile Responsive Styles */
-@media (max-width: 768px) {
-  .mobile-responsive {
-    padding: 10px;
-  }
+    /* styles for floating CTA */
 }
